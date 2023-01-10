@@ -1,0 +1,24 @@
+version: '3.1'
+services:
+  springboot-app:
+    container_name: springboot-backend
+    image: springboot-app
+    build: ./BookStore2/
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgresql
+  postgresql:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=venkat#06
+    - POSTGRES_DB=BookStoredb
+  react-app:
+    container_name: frontend
+    image: bookstore-frontend
+    build: ./emindsbookstore
+    ports:
+      - "3000:3000"

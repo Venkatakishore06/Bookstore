@@ -1,0 +1,284 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  /* Newly Added */
+
+}
+.navbar-brand{
+  font-variant: small-caps;
+}
+.link-dark{
+  font-variant: small-caps;
+}
+.home{
+  
+  margin-top: -4.8rem;
+  text-align: center;
+  
+}
+.body-1{
+  background-color: rgb(210, 126, 30);
+  font-variant: small-caps;
+ 
+}
+.goBack{
+  margin-top: 10px;
+}
+.Button1{
+  
+  margin-top: 5px;
+}
+.back{
+  margin-top: 5px;
+}
+.card1{
+  width: 500px;
+  height: 540px;
+  margin-left: 480px;
+ margin-top: 3px;
+}
+label{
+  margin-left: auto;
+}
+.Button2{
+  margin: 0px 0px 0px 550px;
+  background-color: coral;
+  border-radius: 0.5rem;
+}
+h3{
+  margin-right: 60px;
+}
+
+.img-circle{
+  width:85px;
+  height: 80px;
+  border-radius: 0.5rem;
+}
+.container{
+  background-color: antiquewhite;
+}
+.homepage{
+
+  height: 585px;
+  width: 1236px;
+}
+.background{
+  background-color:rgb(215, 244, 250);
+  height: 590px;
+}
+.btn1{
+margin-left: 100px;
+}
+.form-title{
+  margin-left: 0px;
+}
+.logout{
+  margin-left:18rem;
+  width: 80px; 
+  height: 39px;
+}
+.btn1{
+  background-color:rgba(25, 143, 78, 0.996);
+  display: 'block'; 
+  width: 80px; 
+  height: 39px;
+  margin-left:0.5rem;
+  margin-top: 0.1rem;
+  border-radius: 0.5rem;
+  border-bottom: 0.1rem;
+  
+}
+#user{
+  margin-top: -0.2rem;
+}
+.btn2{
+  background-color: rgb(34, 34, 225);
+  border-radius: 0.5rem;
+  width: 80px; 
+  height: 39px;
+}
+#log-out{
+  margin-top: -0.2rem;
+}
+
+/* for validations color */
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 5px;
+}
+#error-up{
+  color: #cc0000;
+  
+}
+
+/* Login and register Page css*/  
+.Login-box{
+  width: 380px;
+  height:450px;
+  background-color:ghostwhite;
+  margin:170px 0px 0px 950px;
+  border-radius: 0.3rem;
+  padding: 60px 10px 10px 40px;
+  transition: .8s;
+  box-shadow: -1px -1px 20px 20px rgba(0,0,0,0.4);
+}
+#h2{
+  margin: 0px 40px 0px 0px;
+}
+#h4{
+  margin: 5px 30px 0px 0px;
+  font-variant: small-caps;
+}
+#login-background{
+  width: 1586px;
+  height: 865px;
+  margin: -120px 0px 0px -50px;
+  padding: 50px 50px 50px 50px;
+  background-repeat: no-repeat;
+  background-image: url('https://img.freepik.com/free-photo/3d-render-books-stack-blue-background-reading_107791-16454.jpg?w=2000');
+}
+
+.login-head{
+  margin: -30px 10px 40px 10px;
+  font-variant: small-caps;
+}
+#head{
+  margin: -80px 10px 40px 10px;
+  font-variant: small-caps;
+}
+#log{
+  border-radius: 0.5rem;
+  width: 400px;
+  height: 40px;
+}
+#log-1{
+  border-radius: 0.5rem;
+  width: 300px;
+}
+.btn3{
+  background-color:rgba(25, 143, 78, 0.996);
+  display: 'block'; 
+  width: 180px; 
+  height: 39px;
+  margin-left:0.1rem;
+  margin-top: 0.1rem;
+  border-radius: 0.5rem;
+  border-bottom: 0.1rem;
+}
+#register {
+  width: 489px;
+  height: 680px;
+  margin:-680px 0px 0px 510px;
+  background-color: aliceblue;
+  padding: 60px 10px 10px 30px;
+  transition: .8s;
+  border-left: 5px solid;
+  border-radius: 0.3rem;
+  transition: .8s;
+  box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.4);
+ 
+}
+form label, form input {
+  display: block;
+  
+  width: 90%
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+#reg{
+  width: 150px;
+  margin: 25px 0px 0px 130px;
+}
+.lab-tittle{
+  margin: 0px 0px 0px -4px;
+}
+.register-btn{
+  width: 100px;
+  height: 35px;
+  border-radius: 0.4rem;
+  background-color:sandybrown;
+  margin: -15px 0px 0px 103px;
+  color: white;
+  border: none;
+}
+#log-btn{
+margin: 0px 0px 0px 120px;
+}
+.reg-background{
+  width: 1535px;
+  height: 742px;
+  background-color: lightcoral;
+  padding: 30px 0px 0px 0px;
+  }
+
+#reg-logo{
+  width: 510px;
+  height: 680px;
+ 
+  transition: .8s;
+  box-shadow: -1px -1px 20px 20px rgba(0,0,0,0.4);
+  border-radius: 0.3rem 0rem 0rem 0.3rem;
+}
+.reg-form-layout{
+  width: 1000px;
+  margin:0px 0px 0px 240px ;
+  transition: .8s;
+  box-shadow: -1px -1px 20px 20px rgba(0,0,0,0.4);
+  border-radius: 0.3rem;  
+}
+#reg-btn{
+  margin: 0px 0px 0px 210px;
+}
+.reg-in{
+  margin: -10px 0px 0px 0px;
+}
+#reg-back{
+  margin: -67px 0px 0px 350px;
+}
+.Sale-Detail{
+  margin: 0px -1100px 0px 0px;
+}
+#alert{
+  margin: -60px 0px 0px 0px;
+}
