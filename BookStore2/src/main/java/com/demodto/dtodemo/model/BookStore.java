@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 @Data
-@NoArgsConstructor
+@NoArgsConstructor 
 @AllArgsConstructor
 @Entity
 @Table(name="BookStore")

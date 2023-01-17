@@ -29,7 +29,7 @@ public class SecurityConfig {
                 http.cors().and()
                 .csrf().disable()
                         .authorizeRequests()
-                        .antMatchers("/api/**").permitAll()
+                        .antMatchers("/**").permitAll()
                         .anyRequest()
                         .authenticated();
 
