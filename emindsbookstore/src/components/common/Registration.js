@@ -122,27 +122,27 @@ const validateForm = (value) =>
          <div>
         <input type="text" id="log" name="userName" placeholder='Enter Your Name' value={formValue.userName} onChange={handleValidation} />
         </div>
-        <span id="error-up">{formError.userName}</span><br /><br />
+        <span id="error-up">{formError.userName}</span><br />
        
        <div>
-        <input type="text" id="log" name="emailId" placeholder='Enter Email ID' value={formValue.emailId} onChange={handleValidation}  />
+        <input type="text" id="log" name="emailId" placeholder='Enter Email ID ' value={formValue.emailId} onChange={handleValidation}  />
         </div>
-        <span id="error-up">{formError.emailId}</span><br /><br />
+        <span id="error-up">{formError.emailId}</span><br />
        
        <div>
         <input type="text" id="log" name="mobileNo" placeholder='Enter Mobile Number' value={formValue.mobileNo} onChange={handleValidation}   />
         </div>
-        <span id="error-up">{formError.mobileNo}</span><br /><br />
+        <span id="error-up">{formError.mobileNo}</span><br />
        
        <div>
         <input type="password" id="log" name="password" placeholder='Create Password ' value={formValue.password} onChange={handleValidation} />
         </div>
-        <span id="error-up">{formError.password}</span><br /><br />
+        <span id="error-up">{formError.password}</span><br />
          
          <div> 
         <input type="password" id="log" name="confirmPassword" placeholder='Confirm Password' value={formValue.confirmPassword} onChange={handleValidation} />
         </div>
-        <span id="error-up">{formError.confirmPassword}</span><br /><br />
+        <span id="error-up">{formError.confirmPassword}</span><br />
 
         <div >
         <select name="userType" id="log" value={formValue.userType} onChange={handleValidation}>
@@ -151,7 +151,7 @@ const validateForm = (value) =>
             <option value="Admin">Admin</option>          
           </select>
           </div>		
-          <span id="error-up">{formError.userType}</span><br /><br />
+          <span id="error-up">{formError.userType}</span><br />
           
           <button type="submit" id='reg-btn' class="btn btn-primary">Create Account</button>
           </div>

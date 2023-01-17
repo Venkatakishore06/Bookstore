@@ -87,15 +87,15 @@ const AddNewBook = ()=>
       <>
                            
                             <div class="container">
-                                    <div class="jumbotron">
+                                    
                                         <div class="image">
                                                <img src={"logo.png"} class="img-circle" alt="Cinque Terre" />
                                         </div>
                                         <div class="home">
-                                            <h1>EMinds - BookStore</h1>
+                                            <h1>Eminds - BookStore</h1>
                                             <p>Shop our bookstore and be inspired to read</p>
                                         </div>
-                                    </div>
+                                    
                             </div>
                             <nav class="navbar navbar-light bg-dark">
                                    <h3 class="navbar-brand"  style={{color: 'white'}}>BookStore</h3>
@@ -107,41 +107,41 @@ const AddNewBook = ()=>
                             </nav>
 
             
-              <div class="background">
+                    <div class="background">
               
-                    <div class="card1">
-                    <nav class="navbar navbar-light bg-dark">
-                                <h3 style={{color: 'white'}}>Add New Book</h3>
+                       <div class="card1">
+                                <nav class="navbar navbar-light bg-dark">
+                                      <h3 style={{color: 'white'}}>Add New Book</h3>
                                 </nav>
-                    {status.length > 0 && (<Alert variant='success'>{status}</Alert>)}
-                    <br/>                      
+                             {status.length > 0 && (<Alert variant='success'>{status}</Alert>)}
+                            <br/>                      
                             <div class="row">
                             <form onSubmit={handleSubmit}> 
                                     <div >
                                         <input type="text" class="form-control" placeholder="Book Name" name='bookName'  value={formValue.bookName} onChange={handleValidation} />
                                      </div>
-                                <br />
+                               
                                 <span id="error-up">{formError.bookName}</span>
                                 <br/>
 
                                 <div >
                                      <input type="text" class="form-control" placeholder="Author Name" name='authorName'  value={formValue.authorName} onChange={handleValidation}/>
                                 </div>
-                                <br />
+                                
                                 <span id="error-up">{formError.authorName}</span>
                                 <br/>
 
                                 <div >
                                      <input type="text" class="form-control" placeholder="Publisher Name" name='publisherName' value={formValue.publisherName} onChange={handleValidation} />     
                                 </div>
-                                <br/>
+                                
                                 <span id="error-up">{formError.publisherName}</span>
                                 <br/>
 
                                 <div > 
                                      <input type="text" class="form-control" placeholder="Price" name='price'  value={formValue.price} onChange={handleValidation} />
                                 </div>
-                                <br />
+                               
                                 <span id="error-up">{formError.price}</span>
                                 <br/>
 
@@ -153,7 +153,7 @@ const AddNewBook = ()=>
                                 </form>
                             </div>
                             
-                    </div>
+                        </div>
                     </div>
             
             </>

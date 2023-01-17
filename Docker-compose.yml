@@ -1,0 +1,27 @@
+services:
+  backend:
+    container_name: back-end
+    image: bhanubandi1999/product-back-end:v1
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresql
+
+  frontend:
+    container_name: front-end
+    image: bhanubandi1999/product-front-end:v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgresql
+      - backend
+
+  postgresql:
+    image: postgres
+    container_name: bhanu-psql
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=productstore
